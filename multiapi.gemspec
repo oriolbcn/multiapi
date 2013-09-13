@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Multiapi::VERSION
   spec.authors       = ["David Ramirez"]
   spec.email         = ["david@davidrv.com"]
-  spec.description   = %q{TODO: Conect with multiple apis}
-  spec.summary       = %q{TODO: Conect with multiple apis}
-  spec.homepage      = ""
+  spec.description   = %q{Conect with multiple apis}
+  spec.summary       = %q{Conect with multiple apis}
+  spec.homepage      = "https://github.com/davidrv/multiapi"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
