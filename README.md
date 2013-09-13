@@ -20,6 +20,12 @@ Or install it yourself as:
 
 TODO: Write usage instructions here
 
+## Tests
+
+You can run the tests with 
+
+	$ rspec specg
+
 ## Contributing
 
 1. Fork it
