@@ -19,22 +19,24 @@ Or install it yourself as:
 ## Usage
 
 ### Youtube
-
-		$ info = Multiapi::Youtube.get("http://www.youtube.com/watch?v=SyDGJ3L30hw")
-		 
-		info.url => "http://www.youtube.com/watch?v=SyDGJ3L30hw"  
-		info.video_id => "SyDGJ3L30hw"
-		info.embed_url => "http://www.youtube.com/embed/SyDGJ3L30hw"
-		info.title => "Youtube"  
-		info.description => "https://www.facebook.com/shakirachannel [...]"  
-		info.keywords => "keywords"  
-		info.duration => 3473 
-		info.date => 2012-09-28 15:27:03 UTC 
-		info.thumbnail_small => "http://i1.ytimg.com/vi/SyDGJ3L30hw/default.jpg" 
-		info.thumbnail_medium => "http://i1.ytimg.com/vi/SyDGJ3L30hw/mqdefault.jpg"
-		info.thumbnail_large => "http://i1.ytimg.com/vi/SyDGJ3L30hw/hqdefault.jpg"
-		info.view_count => 5228532		  
-		info.raw_info => {"version"=>"1.0", "encoding"=>"UTF-8", "entry"=> [...]}		
+	
+	
+	$ info = Multiapi::Youtube.get("http://www.youtube.com/watch?v=SyDGJ3L30hw")
+	 
+	info.url => "http://www.youtube.com/watch?v=SyDGJ3L30hw"  
+	info.video_id => "SyDGJ3L30hw"
+	info.embed_url => "http://www.youtube.com/embed/SyDGJ3L30hw"
+	info.title => "Youtube"  
+	info.description => "https://www.facebook.com/shakirachannel [...]"  
+	info.keywords => "keywords"  
+	info.duration => 3473 
+	info.date => 2012-09-28 15:27:03 UTC 
+	info.thumbnail_small => "http://i1.ytimg.com/vi/SyDGJ3L30hw/default.jpg" 
+	info.thumbnail_medium => "http://i1.ytimg.com/vi/SyDGJ3L30hw/mqdefault.jpg"
+	info.thumbnail_large => "http://i1.ytimg.com/vi/SyDGJ3L30hw/hqdefault.jpg"
+	info.view_count => 5228532		  
+	info.raw_info => {"version"=>"1.0", "encoding"=>"UTF-8", "entry"=> [...]}
+			
 		
 
 ## Tests
