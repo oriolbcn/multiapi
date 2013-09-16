@@ -26,7 +26,7 @@ Or install it yourself as:
 		$ info.video_id => "SyDGJ3L30hw"
 		$ info.embed_url => "http://www.youtube.com/embed/SyDGJ3L30hw"
 		$ info.title => "Youtube"  
-		$ info.description => ""https://www.facebook.com/shakirachannel\n01. ►00:00 Estoy aqui \n02. [...]"  
+		$ info.description => "https://www.facebook.com/shakirachannel [...]"  
 		$ info.keywords => "keywords"  
 		$ info.duration => 3473 
 		$ info.date => 2012-09-28 15:27:03 UTC 
