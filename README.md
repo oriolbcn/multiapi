@@ -24,7 +24,7 @@ TODO: Write usage instructions here
 
 You can run the tests with 
 
-	$ rspec specg
+	$ rspec spec
 
 ## Contributing
 

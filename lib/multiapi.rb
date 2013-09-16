@@ -1,5 +1,6 @@
 require "multiapi/version"
+require "multiapi/youtube"
 
-module Multiapi
-  # Your code goes here...
+module Multiapi 
+  
 end
